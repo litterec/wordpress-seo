@@ -1,0 +1,25 @@
+{
+    "name":"rasolo/wordpress-seo",
+    "description":"Contains some useful functions made by Ra-Solo developers",
+    "license":"MIT",
+    "version": "@dev",
+    "authors":{
+        "name":["Yoast Authors"],
+        "email":["support@yoast.com"]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "config": {
+        "vendor-dir": "wp-content/vendor"
+    },
+    "require":{
+        "php":">=5.5.0",
+        "johnpbloch/wordpress" : ">=4.9"
+    }
+
+}
